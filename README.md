@@ -1,7 +1,7 @@
 # CSGOItemParserForWeaponsPlugin
 A simple tool to generate skin config files for CS:GO Weapons plugin
 
-Usage: java -jar weaponsconfig.jar <path_to_csgo_folder> <language>
+Usage: java -jar weaponsconfig.jar < path_to_csgo_folder > < language >
 
 Example (windows): java -jar weaponsconfig.jar "D:\Program Files\Steam\steamapps\common\Counter-Strike Global Offensive\csgo" english
 

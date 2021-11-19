@@ -12,6 +12,7 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode
 public class Skin {
 	private String name;
+	@Setter(value = AccessLevel.NONE)
 	private List<String> weapons = new ArrayList<String>();
 	private int id;
 	private String tag;

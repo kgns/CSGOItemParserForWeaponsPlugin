@@ -22,7 +22,7 @@ public class Skin {
 	}
 	
 	public String getLang() {
-		if (name.contains("phase)) {
+		if (name.contains("phase")) {
 			return lang + " (" + capitalize(name.substring(0, 1)) + " " + name.charAt(5) + ")";
 		} else if (name.contains("marbleized") && !name.contains("blackpearl")) {
 			return lang + " (" + capitalize(name.replace("marbleized", "")) + ")";

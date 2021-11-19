@@ -8,3 +8,6 @@ Example (windows): java -jar weaponsconfig.jar "D:\Program Files\Steam\steamapps
 Example (linux): java -jar weaponsconfig.jar /home/user/server/csgo english
 
 Output will be created in addons/sourcemod/configs/weapons/ folder
+
+## Lombok
+For right compiling use this as external library: https://projectlombok.org/download
